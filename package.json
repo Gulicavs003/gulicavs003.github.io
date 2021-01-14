@@ -1,0 +1,11 @@
+{
+  "name": "mobile-first",
+  "version": "1.0.0",
+  "description": "Proyecto de practica con orientacion al diseño en moviles.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
