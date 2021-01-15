@@ -162,12 +162,20 @@ main{
 
 .main-currency-table .currency-table--title {
     margin-bottom: 15px;
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     font-weight: bold;
     line-height: 2.3rem;
     color: var(--bitcoin-orange);
 }
 
+.main-currency-table .currency-table--title-two{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 2.2rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--secondary-blue);
+}
 .currency-table--container {
     width: 90%;
     min-width: 230px;
@@ -237,8 +245,8 @@ main{
     background-repeat: no-repeat;
 }
 
-.currency--table-date {
-    width: 190px;
+.currency-table--date {
+    width: 21rem;
     height: 30px;
     margin: 0 auto;
     margin-top: 15px;
@@ -247,7 +255,17 @@ main{
     border-radius: 8px; 
 }
 
-.currency--table-date p {
+.currency-table--date--two {
+    width: 21rem;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--secondary-blue);
+    border-radius: 8px; 
+}
+
+.currency-table--date p {
     font-size: 1.0rem;
     font-weight: 300;
     line-height: 1.5rem;
@@ -384,7 +402,7 @@ main{
     min-width: 288px;
     height: auto;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .plans__title h2{
@@ -393,6 +411,7 @@ main{
     font-weight: bold;
     line-height: 2.6rem;
     color: var(--black);
+    margin-top: 2rem;
 }
 
 .plans__title p{
